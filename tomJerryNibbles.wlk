@@ -4,11 +4,11 @@ object tom {
     method energia() = energia
 
     method correr(metrosCorridos){
-        energia = energia - (metrosCorridos/2)
+        energia -= (metrosCorridos/2)
     }
 
     method comerRaton(raton){
-        energia = energia + 12 + raton.peso()
+        energia += 12 + raton.peso()
     }
 
     method puedeCazarADistancia(distancia){
@@ -25,7 +25,7 @@ object jerry {
 
   method peso() = edad *20
   method cumplirAnios() {
-    edad = edad + 1
+    edad += 1
   }
 }
 
@@ -39,7 +39,7 @@ object mickey {
     var dinero = 10
 
     method ganarDinero(ingreso) {
-        dinero = dinero + ingreso
+        dinero += ingreso
     } 
     method peso() = dinero *2
 }
