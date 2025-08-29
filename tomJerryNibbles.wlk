@@ -1,6 +1,8 @@
 object tom {
     var energia = 50
 
+    method velocidadMaxima() = energia /5
+
     method energia() = energia
 
     method correr(metrosCorridos){
