@@ -15,7 +15,9 @@ object tom {
         return self.energia() >= distancia
     }
 
-    
+    method cazarRatonADistancia(raton, distancia){
+        
+    }
 }
 
 object jerry {
@@ -32,3 +34,9 @@ object nibbles {
 }
 
 // Inventar otro ratón
+
+object mickey {
+    var dinero = 10
+
+    method peso() = dinero *2
+}
