@@ -1,9 +1,21 @@
 object tom {
     var energia = 50
 
+    method energia() = energia
+
     method correr(metrosCorridos){
-        energia = energia - metrosCorridos/2
+        energia = energia - (metrosCorridos/2)
     }
+
+    method comerRaton(raton){
+        energia = energia + 12 + raton.peso()
+    }
+
+    method puedeCazarADistancia(distancia){
+        return self.energia() >= distancia
+    }
+
+    
 }
 
 object jerry {
