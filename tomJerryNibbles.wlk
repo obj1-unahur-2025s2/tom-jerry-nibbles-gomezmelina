@@ -16,7 +16,7 @@ object tom {
     }
 
     method cazarRatonADistancia(raton, distancia){
-        
+
     }
 }
 
@@ -38,5 +38,8 @@ object nibbles {
 object mickey {
     var dinero = 10
 
+    method ganarDinero(ingreso) {
+        dinero = dinero + ingreso
+    } 
     method peso() = dinero *2
 }
