@@ -16,7 +16,10 @@ object tom {
     }
 
     method cazarRatonADistancia(raton, distancia){
-
+        if (self.puedeCazarADistancia(distancia)) {
+            self.correr(distancia)
+            self.comerRaton(raton)
+        }
     }
 }
 
